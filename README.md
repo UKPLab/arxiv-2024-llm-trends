@@ -1,4 +1,4 @@
-# Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields beyond Computer Science
+# Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields Beyond Computer Science
 
 [![License](https://img.shields.io/badge/license-CC--4.0--BY--SA-green)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 [![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
@@ -23,3 +23,11 @@ $ conda create -n llmtrends pip python=3.9
 $ conda activate llmtrends
 $ pip install -r requirements.txt
 ```
+## Citation
+
+If you use the 5Pils dataset or this code in your work, please cite our paper as follows:
+
+
+## Disclaimer
+
+> This repository contains experimental software and is published for the sole purpose of giving additional background details on the associated paper.
