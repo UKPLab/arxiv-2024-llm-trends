@@ -16,16 +16,57 @@ Don't hesitate to send us an e-mail or report an issue if something is broken (a
 
 ## Getting Started
 
-Follow the instructions below to create the python experiment to fetch the data. 
+Follow the instructions below to create the Python experiment to fetch the data. 
 
 ```
 $ conda create -n llmtrends pip python=3.9 
 $ conda activate llmtrends
 $ pip install -r requirements.txt
 ```
+
+### Usage - Fetch Data
+
+To use the dataset for analysis, you need to collect the dataset using the following code. You will need your semantic scholar [API Key](https://github.com/allenai/s2orc).
+
+1. To fetch the __entire semantic scholar corpus__, use:
+
+```
+python -c " from code.get_s2roc import *; s2_api_key = ''; get_s2roc_files()" 
+
+```
+2. To fetch only the extracted __abstracts from scholarly documents__, use:
+```
+python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_abstracts()"
+
+```
+4. To fetch the __research papers__, use:
+```
+python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_papers()"
+
+```
+5. To fetch only the names of __the author data__ of the scholarly documents, use:
+```
+python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_authors()"
+
+```
+6. To fetch __the citation graph__, use:
+```
+python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_citations()" 
+
+```
+7. To fetch __the publication venues__ of the research papers, use:
+```
+python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_publication_venues()" 
+
+```
+
+### Usage - Analyze Data
+
+We have used [Tableau for Students](https://www.tableau.com/academic/students) to analyze the data and create all the plots. However, any other visualization software could be used as well to analyze the data. 
+
 ## Citation
 
-If you use the 5Pils dataset or this code in your work, please cite our paper as follows:
+If you use this code in your work, please cite our paper as follows:
 
 
 ## Disclaimer
