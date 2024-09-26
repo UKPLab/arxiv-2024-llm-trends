@@ -8,7 +8,7 @@ import pathlib
 from pprint import pprint
 from tqdm import tqdm
 
-s2_api_key = "6ocjziAkTp3rhulhevE1t7O4Xr2pdPhWaMV3WAyU"
+s2_api_key = ""
 
 def get_s2roc_readme():
     latest_release = requests.get("http://api.semanticscholar.org/datasets/v1/release/latest").json()
