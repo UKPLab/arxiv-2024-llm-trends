@@ -31,32 +31,32 @@ To use the dataset for analysis, you need to collect the dataset using the follo
 1. To fetch the __entire semantic scholar corpus__, use:
 
 ```
-python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_s2roc_files()" 
+python -c "from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_s2roc_files()" 
 
 ```
 2. To fetch only the extracted __abstracts from scholarly documents__, use:
 ```
-python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_abstracts()"
+python -c "from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_abstracts()"
 
 ```
 4. To fetch the __research papers__, use:
 ```
-python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_papers()"
+python -c "from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_papers()"
 
 ```
 5. To fetch only the names of __the author data__ of the scholarly documents, use:
 ```
-python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_authors()"
+python -c "from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_authors()"
 
 ```
 6. To fetch __the citation graph__, use:
 ```
-python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_citations()" 
+python -c "from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_citations()" 
 
 ```
 7. To fetch __the publication venues__ of the research papers, use:
 ```
-python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_publication_venues()" 
+python -c "from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_publication_venues()" 
 
 ```
 
