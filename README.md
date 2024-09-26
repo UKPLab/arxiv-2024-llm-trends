@@ -31,7 +31,7 @@ To use the dataset for analysis, you need to collect the dataset using the follo
 1. To fetch the __entire semantic scholar corpus__, use:
 
 ```
-python -c " from code.get_s2roc import *; s2_api_key = ''; get_s2roc_files()" 
+python -c " from code.get_s2roc import *; s2_api_key = "YOUR API KEY"; get_s2roc_files()" 
 
 ```
 2. To fetch only the extracted __abstracts from scholarly documents__, use:
