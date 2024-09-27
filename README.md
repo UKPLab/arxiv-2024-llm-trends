@@ -1,6 +1,6 @@
 # Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields Beyond Computer Science
 
-[![License](https://img.shields.io/badge/license-CC--4.0--BY--SA-green)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+[![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 
 This repository contains the code to procure and preprocess the dataset, introduced in the paper ["Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields beyond Computer Science"](). The code is released under a **CC-BY-SA-4.0** license.
