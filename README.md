@@ -70,6 +70,17 @@ We have used [Tableau for Students](https://www.tableau.com/academic/students) t
 
 If you use this code in your work, please cite our paper as follows:
 
+```bibtex 
+@article{pramanick2024llmtrends,
+  title={"Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields beyond Computer Science},
+  author={Pramanick, Aniket and Hou, Yufang and Mohammad, Saif and Gurevych, Iryna},
+  journal={},
+  year={2024},
+  doi={},
+  url={}
+}
+```
+
 
 ## Disclaimer
 
