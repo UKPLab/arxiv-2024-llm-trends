@@ -5,7 +5,7 @@
 
 This repository contains the code to procure and preprocess the dataset, introduced in the paper ["Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields beyond Computer Science"](). The code is released under a **CC-BY-SA-4.0** license.
 
-The code hosted in this repository extracts data and metadata from the Semantic Scholar Corpus (additionally requires the API key, see below), pre-processes it, and saves it in `.jsonl` format, which is compatible with common visualization tools (such as Tableau). While this data can be used for a broad analysis of scholarly documents, we use it to investigate the increasing application of Large Language Models (LLMs) across diverse fields outside of computer science.
+The code hosted in this repository extracts data and metadata from the Semantic Scholar Corpus (additionally requires the API key, see below), pre-processes it, and saves it locally in `.jsonl` format, which is compatible with common visualization tools (such as Tableau). While this data can be used for a broad analysis of scholarly documents, we use it to investigate the increasing application of Large Language Models (LLMs) across diverse fields outside of computer science.
 
 Contact person: [Aniket Pramanick](mailto:aniket.pramanick@tu-darmstadt.de) 
 
