@@ -19,7 +19,7 @@ Don't hesitate to send us an e-mail or report an issue if something is broken (a
 
 ## Getting Started
 
-Follow the instructions below to create the Python experiment to fetch the data. 
+Follow the instructions below to create the Python environment to fetch the data. 
 
 ```
 $ conda create -n llmtrends pip python=3.9 
