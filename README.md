@@ -73,7 +73,7 @@ If you use this code in your work, please cite our paper as follows:
 
 ```bibtex 
 @article{pramanick2024llmtrends,
-  title={"Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields beyond Computer Science},
+  title={Transforming Scholarly Landscapes: Influence of Large Language Models on Academic Fields beyond Computer Science},
   author={Pramanick, Aniket and Hou, Yufang and Mohammad, Saif and Gurevych, Iryna},
   journal={arXiv preprint arXiv:2409.19508},
   year={2024},
